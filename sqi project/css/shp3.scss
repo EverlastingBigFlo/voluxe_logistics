@@ -1,0 +1,27 @@
+
+@media screen and (max-width:1150px) {
+    .main-container {
+        .body-wrapper{
+            flex-wrap: wrap;
+            .body-left{
+                width: 260px;
+                margin: auto;
+            }
+            .body-right{
+                 margin: 50px auto 0;
+            }
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 910px) {
+    .main-container{
+        .body-wrapper{
+            .body-right{
+                // width: 550px !important;
+            }
+         }
+     }   
+}

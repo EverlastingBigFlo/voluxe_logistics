@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./partials/variables";
+
+$font-family: 'Rubik', sans-serif;
+
+
+
+main{
+    font-family: $font-family;
+    section{
+        // footerSection
+        .footer{
+            background-color: $var-footerBg;
+            height: 100%;
+            .container{
+                .tCont{
+                    color: $var-danger2;
+                    font-size: 1rem;
+                }
+                li{
+                    font-size: .8rem;
+                    line-height: 3rem;
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: $var-footerColor;
+                    }
+                }
+            }
+            hr{
+                display: flex;
+                margin: 0 auto;
+                width: 95%;
+                border: 1px solid black !important;
+            }
+
+            p{
+                color: $var-danger2;
+                font-size: .7rem;
+            }
+        }
+    }
+}

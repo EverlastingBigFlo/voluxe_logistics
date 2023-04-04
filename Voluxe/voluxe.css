@@ -1,0 +1,109 @@
+* {
+  font-family: "Rubik", sans-serif !important;
+}
+
+.text-red {
+  color: var(--color);
+}
+
+.voluxe-section .section .cont {
+  position: absolute !important;
+  height: 100%;
+  width: 100%;
+}
+.voluxe-section .section .cont .h3-dp {
+  display: none;
+  color: #ce0e0f;
+}
+.voluxe-section .section .cont .card-overlay {
+  margin-top: 12%;
+  margin-left: 150px;
+  width: 490px;
+  padding: 30px;
+  padding-bottom: 70px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.voluxe-section .section .cont .card-overlay h3 {
+  font-size: 2rem;
+}
+.voluxe-section .section .cont .card-overlay h3, .voluxe-section .section .cont .card-overlay h6 {
+  color: #ce0e0f;
+}
+.voluxe-section .section .cont .card-overlay button {
+  background-color: #ce0e0f;
+  border-radius: 7px;
+}
+.voluxe-section .qualities .tabs {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  gap: 40px;
+}
+.voluxe-section .qualities .tabs .tab {
+  width: 300px;
+  height: 300px;
+}
+.voluxe-section .qualities .tabs .tab hr {
+  border: 1px solid #000;
+  height: 0;
+}
+.voluxe-section .qualities .tabs .tab img {
+  width: 75px;
+}
+.voluxe-section .qualities .tabs .tab img.img-2 {
+  width: 78px;
+}
+.voluxe-section .qualities .tabs .tab img.img-3 {
+  width: 80px;
+}
+
+.voluxe-section .voluxe-text{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.voluxe-section .voluxe-text button {
+  background-color: #ce0e0f;
+  border-radius: 5px;
+}
+
+section  .overlay-text{
+  color: #f5f5f5;
+  position: absolute;
+  top: 35%;
+  right: 120px;
+  height: 100%;
+  width: 300px;
+}
+
+@media screen and (max-width: 750px) {
+  .voluxe-section .section .cont .card-overlay {
+    text-align: center;
+    transform: translateY(25%);
+    margin: auto;
+    margin-top: 24% !important;
+  }
+  .voluxe-section .section .qualities .tabs {
+    justify-content: center !important;
+    gap: 0 !important;
+  }
+  section  .overlay-text{
+    width: 60%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .voluxe-section .section .cont .h3-dp {
+    display: block;
+    transform: translateY(150px);
+  }
+  .voluxe-section .section .cont .card-overlay {
+    margin-top: 14% !important;
+    transform: translateY(60%) !important;
+    width: 90%;
+  }
+  .voluxe-section .section .cont .card-overlay h3 {
+    display: none;
+  }
+}/*# sourceMappingURL=voluxe.css.map */

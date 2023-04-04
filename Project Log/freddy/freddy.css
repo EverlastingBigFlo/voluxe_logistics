@@ -1,0 +1,162 @@
+#fred{
+    margin-top: 9rem;
+}
+
+.FRED{
+    background-color: #e3dfdf !important;
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    border: 1px solid black;
+    border-radius: 8px;
+    line-height: 2rem;
+}
+
+form .input1 .FD{
+    border: 1px solid black !important;
+}
+form .input2 .FD2{
+    border: 1px solid black  !important;
+}
+
+form .input3 .FD3{
+    border: 1px solid black  !important;
+}
+form .input3 .FD4{
+    border: 1px solid black  !important;
+}
+
+
+
+
+.cards .card1 img{
+    width: 60px !important;
+}
+.cards .card3 img{
+    margin-top: 10px !important;
+}
+.cards .card4 img{
+    margin-top: 10px !important;
+}
+@media (max-width:896px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+
+
+@media (max-width:874px) {
+    form{
+        width: 100% !important;
+    }
+}
+@media (max-width:698px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:896px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:765px) {
+    form{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:599px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:587px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:528px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:514px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:458px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:455px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:433px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:435px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:429px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:393px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:365px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:363px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:351px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:353px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:331px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+@media (max-width:313px) {
+    .FRED{
+        width: 100% !important;
+    }
+}
+
+
+
+
+
+
+
+
+

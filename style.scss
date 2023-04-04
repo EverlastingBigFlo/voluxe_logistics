@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./partials/variables";
+
+$font-family: 'Rubik', sans-serif;
+
+
+
+main{
+    font-family: $font-family;
+    section{
+        .heroPage{
+            margin-top: calc(5.8rem);
+            height: 100%;
+            background: linear-gradient(72.36deg, rgba(225, 25, 25, 0.2) 34.42%, 
+            rgba(225, 25, 25, 0.2) 58.55%, 
+            rgba(225, 25, 25, 0.123524) 80.27%, 
+            rgba(225, 25, 25, 0.0582204) 101.6%, 
+            rgba(225, 25, 25, 0) 120.61%), 
+            url(https://nowaled.pl/wp-content/uploads/2020/02/3-nowaled-lampy-przemys%C5%82owe-LED-WEW-955x500.png);
+            padding: 3rem 0;
+            background-blend-mode: normal, multiply;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transform: translateY(.5rem);
+
+                h3{
+                    font-size: 3rem ;
+                    color: $var-backGround;
+                }
+                .boxCont{
+                        margin-top: 3rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        .whiteCard{
+                            // position: absolute;
+                            background-color: $var-backGround;
+                            width: 10.2rem;
+                            height: 9.2rem;
+                            margin-top: 0.9rem;
+                            // left: 26rem;
+                            // border: 0.5px solid #000000;
+                            border-left: none !important;
+                            border-top-right-radius: 0% !important;
+                            border-bottom-right-radius: 0% !important;
+                        center{
+                            transform: translateY(1.8rem);
+                            }
+                        }
+                        .redCard{
+                            // position: absolute;
+                            width: 10.9rem;
+                            height: 10.4rem;
+                            background-color: $var-danger;
+                            z-index: 1;
+                            // left: 35.8rem;
+                            // border: 0.5px solid #000000;
+                            border-right: none !important;
+                            border-left: none !important;
+                            center{
+                                transform: translateY(3rem);
+                                }
+                        }
+
+                        .whiteCard2{
+                            // position: absolute;
+                            background-color: $var-backGround;
+                            width: 10.2rem;
+                            height: 9.2rem;
+                            // left: 46.4rem;
+                            margin-top: 0.9rem;
+                            // border: 0.5px solid #000000;
+                            border-left: none !important;
+                            border-top-left-radius: 0% !important;
+                            border-bottom-left-radius: 0% !important;
+                            center{
+                                transform: translateY(1.8rem);
+                                }
+                        }
+                    }
+                    
+                        a{
+                            text-decoration: none;
+                            // margin-left: 3px;
+                        .input-group-text{
+                            background-color: $var-danger2;
+                        }
+                    }
+                    input:focus::placeholder{
+                        transform: translateY(-1.1rem);
+                        transition: 2s ease-in-out;
+                    }
+            }
+        }
+    // heroSection
+        .heroSection{
+            height: 100%;
+            background-color: $var-backGround;
+            padding-bottom: 5rem;
+        
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .heroText{
+                font-size: 3rem;
+                font-weight: 400;
+            }
+            
+            .contCard{
+
+                .whiteCard{
+                width: 15.4rem;
+                height: 13.5rem;
+                background-color: #FFFFFF;
+                line-height: 12px;
+                border-right: 1px solid rgba(0, 0, 0, 0.2);
+                border-radius: 8px 0px 0px 8px;
+
+                center{
+                    svg{
+                        margin-top: 2rem;
+                    }
+                    .shipN{
+                        margin-top: 3rem;
+                        font-size: 1.2rem;
+                    }
+
+                    .text-secondary{
+                        font-size: 1rem;
+                    }
+                }
+            }
+                .whiteCard2{
+                width: 15.4rem;
+                height: 13.5rem;
+                background-color: #FFFFFF;
+                line-height: 1.2rem;
+                border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+                center{
+                    svg{
+                        margin-top: 2rem;
+                    }
+                    .voluxe{
+                        margin-top: 1.2rem;
+                        font-size: 1.2rem;
+                    }
+
+                    .text-secondary{
+                        font-size: 1rem;
+                        width: 12rem;
+
+                    }
+                }
+            }
+                .whiteCard3{
+                width: 15.4rem;
+                height: 13.5rem;
+                background-color: #FFFFFF;
+                line-height: 1.2rem;
+                border-radius: 0px 8px 8px 0px;
+                center{
+                    svg{
+                        margin-top: 2rem;
+                    }
+                    .store{
+                        margin-top: 1.2rem;
+                        font-size: 1.2rem;
+                    }
+
+                    .text-secondary{
+                        font-size: 1rem;
+                    }
+                }
+            }
+            }
+                .mt-4{
+                    font-size: 3rem !important;
+                    font-weight: 400;
+                }
+
+                //Cards
+                
+            .cardSec{
+                .moreAbout{
+                    font-size: 3rem;
+                    font-weight: 400;
+                    margin-top: 4rem;
+                }
+
+                .box{
+                    width: 31rem;
+                    height: 100%;
+                    background: $var-cardBg;
+
+                    .container{
+                        transform: translateY(2rem);
+                        height: 100%;
+                    h1{
+                        color: #FFFFFF;
+                        
+                    }
+
+                    .btBarriers{
+                        color: $var-pink;
+                        margin-top: 2rem;
+                    }
+
+                }
+                }
+            }
+        }
+        }
+
+        // mockupSection
+        .mockupSection{
+            // margin-top: 5rem;
+            height: 100%;
+            padding: 6rem 0;
+            background-color: $var-pinkBg;
+
+            .container{
+                height: 100%;
+
+                .trusTed{
+                    font-size: 3.5rem;
+                }
+
+                .storeS{
+                    .img-fluid:hover{
+                        border: 5px solid transparent;
+                    }
+                }
+
+                .riderM{
+                    a{
+                      
+                    .img-fluid:hover{
+                        border: 10px solid transparent !important;
+                        transition: .3s ease-in-out;
+                    }
+                }
+                }
+            }
+
+        }
+
+// reviewSection
+
+        .defaultBg{
+
+            h1{
+                font-size: 3rem;
+                font-weight: 400;
+            }
+
+            .card{
+                width: 16.8rem;
+                height: 100%;
+                padding: 2px;
+                background-color: white;
+                border: none;
+                border-radius: 1rem;
+                box-shadow: 5px 5px 10px #6e6a6a;
+
+                .reviewWord{
+                    font-size: 0.7rem;
+                }
+            }
+
+            .card:hover{
+                border: 5px dashed $var-pink;
+                transition: .5s ease;
+            }
+        }
+
+        // faqSection
+
+        .faqSection{
+                .container{
+                    .accordionWrapper{
+                        width: 100%;
+                        .accordion-button{
+                            margin-right: 7rem !important;
+                        }
+                    }
+                }
+
+        }
+    }
+}

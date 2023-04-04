@@ -1,0 +1,68 @@
+
+// heroSection
+
+// whiteCards
+.contCard{
+
+    animation: whiteCards infinite 5s linear;
+}
+
+@keyframes whiteCards {
+        50%{
+            box-shadow: 10px 10px 30px #AC020C;
+        }
+}
+
+// bikeImage
+
+.riderM{
+    a{
+      .img-fluid{
+        animation: bikeImage infinite 10s linear ;
+      }  
+    //   animation: name duration timing-function delay iteration-count direction fill-mode;
+    }
+} 
+
+@keyframes bikeImage {
+    // from{
+    //    transform: scale(1);
+    // }
+    // to{
+    //    transform: scale(1.2);
+    // }
+
+    0%{
+        transform: scale(.9)
+    }
+    10%{
+        transform: scale(1)
+    }
+    20%{
+        transform: scale(.9)
+    }
+    30%{
+        transform: scale(1)
+    }
+    40%{
+        transform: scale(.9)
+    }
+    50%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(.9)
+    }
+    70%{
+        transform: scale(1)
+    }
+    80%{
+        transform: scale(.9)
+    }
+    90%{
+        transform: scale(1)
+    }
+    100%{
+        transform: scale(.9)
+    }
+}

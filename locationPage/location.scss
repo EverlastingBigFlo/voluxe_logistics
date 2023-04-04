@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "../partials/variables";
+
+$font-family: 'Rubik', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    font-family: $font-family;
+    section{
+        // heroPage
+        .heroPage{
+            margin-top: calc(5.8rem);
+            height: 100%;
+            background-image: url(../ImagesAndIcons/locationPageBg.png);
+            background-blend-mode: normal, multiply;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transform: translateY(.5rem);
+
+                h3{
+                    font-size: 3rem ;
+                    color: $var-backGround;
+                    font-weight: 500;
+                    letter-spacing: 0.3px;
+                }
+                .boxCont{
+                        margin-top: 2rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        .whiteCard{
+                            background-color: $var-backGround;
+                            width: 10.2rem;
+                            height: 9.2rem;
+                            margin-top: 0.9rem;
+                            border-left: none !important;
+                        center{
+                            transform: translateY(1.8rem);
+                            }
+                        }
+
+                        .whiteCard2{
+                            background-color: $var-backGround;
+                            width: 10.2rem;
+                            height: 9.2rem;
+                            margin-top: 0.9rem;
+                            border-top-right-radius: 0% !important;
+                            border-bottom-right-radius: 0% !important;
+                            border-left: 0.5px solid black;
+                            center{
+                                transform: translateY(1.8rem);
+                                }
+                        }
+
+                        .redCard{
+                            width: 10.8rem;
+                            height: 10.3rem;
+                            background-color: $var-locationPage;
+                            z-index: 1;
+                            border-right: none !important;
+                            border-left: none !important;
+                            transform: translateY(.5rem
+                            );
+                            center{
+                                transform: translateY(3rem);
+                                }
+                        }
+                    }
+                    h2{
+                        font-weight: 400;
+                        font-size: 1.8rem;
+                    }
+                        a{
+                            text-decoration: none;
+                        .input-group-text{
+                            background-color: $var-danger2;
+                        }
+                    }
+
+
+
+                    input:focus::placeholder{
+                        transform: translateY(-1rem);
+                        color: $var-pinkBg;
+                        transition: 2s ease-in-out;
+                        font-size: .7rem;
+                    }
+                    input:focus{
+                       background-color: $var-danger;
+                       color: $var-backGround;
+                        transition: 2s ease-in-out;
+                    }
+
+                .input-group-text:hover{
+                    background-color: $var-backGround;
+                    transition: 1.5s ease-in-out;
+                    color: $var-danger !important;
+                }
+            }
+        }
+
+
+        // heroSection
+        .heroSection{
+            .sectionTitle{
+                h3{
+                    font-size: 2rem;
+                    font-weight: 400;
+                    margin-top: 4rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                    line-height: 1rem;
+                }
+            }
+            .heroSecWrapper{
+                div{
+                h2{
+                    font-size: 1.8rem;
+                    font-weight: 400;
+                }
+              a{
+                button{
+                    font-weight: 300;
+                    font-size: 1rem;
+                }
+              }
+            }
+            }   
+        }
+
+        // lastSection
+        .lastSection{
+            h1{
+                font-size: 2rem;
+                font-weight: 400;
+            }
+            .lastSectionWrapper{
+                font-size: 1rem;
+                line-height: 3rem;
+            }
+        }
+}
+}

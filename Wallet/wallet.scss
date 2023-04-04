@@ -1,0 +1,112 @@
+*{
+    font-family: 'Rubik', sans-serif !important;
+}
+
+:root{
+    --color: #ce0e0f;
+}
+
+.red-color{
+    background-color: var(--color);
+}
+
+.wallet-section {
+    background-color: #e4e4e4;
+    height: calc(100vh + 200px);
+    .container{
+            display: grid;
+            grid-gap: 100px;
+            grid-template-columns: 30% 65%;
+        .wallet{
+            width: 220px;
+            height: 205px;
+            border-radius: 7px;
+            box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+             li{
+                width: 100%;
+                padding: 13px;
+                a{
+                    gap: 20px;
+                }
+            }
+            li:hover{
+                text-decoration: none;
+            }
+            li:hover:not(.red-color){
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+        .atm-card {
+            width: 35rem;
+            img{
+            width: inherit;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .container {
+        grid-gap: 4% !important;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .wallet-section{
+        height: 860px !important;
+        .container {
+            grid-template-columns: 450px !important;
+            width: inherit;
+            margin: auto !important;
+            .wallet{
+                margin: 0 auto;
+            }
+            .atm-card{
+                margin: auto !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px){
+    .wallet-section {
+        .container{
+            grid-template-columns: 300px;
+            .atm-card{
+                width: 100%;
+                margin: auto !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .wallet-section {
+            height: calc(100vh + 50px) !important;
+        .container{
+            grid-template-columns: 300px;
+            .wallet{
+                width: 180px;
+                height: 170px;
+                li{
+                    padding: 9px;
+                }
+            }
+            .atm-card{
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .wallet-section{
+        .container{
+            .atm-card{
+                width: 80%;
+                margin: auto;
+            }
+        }
+    }
+}
+

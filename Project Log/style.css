@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.body{
+    margin-top: 5.8rem;
+    background-image: url(gps-tracking-2-e1503673456871\ 1.png);
+    height: 100%;
+}
+center h1{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+}
+.vector{
+    background-color:#666666;
+    border-radius: 150%;
+    height: 32px;
+    width: 32px;
+    
+}
+.topper{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    margin-top: 50px;
+    background: #DDD3D3;
+    text-align: center;
+    /* padding-bottom: 100px; */
+    padding: 20px 0;
+}
+center{
+    color:#CE020F;
+    background-color: transparent;
+    font-family: 'Rubik';
+    font-style: italic;                                              
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 140%;
+}
+.topper p{
+    font-size: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.topper button{
+    width: 162px;
+    height: 42px;
+    color: black;
+    background-color:#D60D0D;
+}
+/* .card{
+    width:100%;
+    height: 100%;
+    margin-left: 374px;
+    background: #F2F1F1;
+    margin-top: 30px;
+} */
+.heroTitle{
+    margin-left: 8.5rem;
+
+}
+.card-body .heroTitle .cardTitle{
+    font-size: 24px;
+    color: #666666;
+}
+.card-body .heroTitle h5{
+    font-size: 14px;
+    color: #666666;
+}
+.card p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #888888;
+}
+.card-body h1{
+    font-size: 14px;
+    font-weight: 500;
+    font-weight: bolder;
+}
+
+.card-body h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 140%;
+}
+.card-body h2{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+}
+.card-title{
+    font-size: 28px;    
+
+}
+.long-line{
+    height: 18rem;
+    width: 1.72px;
+    position: relative;
+    background: #8C8C8C;
+    margin-left: 15px;
+}
+.shtLine{
+    position: absolute;
+    height: 167.06px;
+    width: 1.72px;
+    background: #263238;
+    top: 20vh;
+}
+.transit p{
+    color: #9B6060;
+}
+.transit img{
+    height: 100%;
+}
+.firstcircle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #666666;
+    border: 0.574074px solid #8C8C8C;
+    right: -9px;
+    top: 2.8rem;
+}
+.secondcircle{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    background: #008023;
+    right: -9px;
+    top: 8.5rem;
+}
+.thdcircle{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    background: #008023;
+    right: -9px;
+    top: 13.5rem;
+}
+header .NAVV {
+    z-index: 10;
+    height: 5.8rem;
+  }
+  header .NAVV .heroHeader .nav-link {
+    font-size: 1.2rem;
+    color: black;
+  }
+  header .NAVV .heroHeader .nav-link .bi {
+    font-size: 0.8rem;
+  }
+  header .NAVV .heroHeader .buttons .btn-outline-dark {
+    padding: 1rem 3rem;
+  }
+  header .NAVV .heroHeader .buttons .btn-danger {
+    border: 1px solid black;
+    padding: 1rem 3rem;
+  }
+  
+
+
+  main {
+    font-family: "Rubik", sans-serif;
+  }
+  main section .footer {
+    background-color: #F2F2F2;
+    height: 100%;
+  }
+  main section .footer .container .tCont {
+    color: #D60D0D;
+    font-size: 1rem;
+  }
+  main section .footer .container li {
+    font-size: 0.8rem;
+    line-height: 3rem;
+    list-style: none;
+  }
+  main section .footer .container li a {
+    text-decoration: none;
+    color: #666666;
+  }
+  main section .footer hr {
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+    border: 1px solid black !important;
+  }
+  main section .footer p {
+    color: #D60D0D;
+    font-size: 0.7rem;
+  }
+
+
+
+
+  @media (max-width: 1398px) {
+    .heroHeader {
+      background-color: transparent !important;
+    }
+    .nav-link {
+      white-space: nowrap;
+      color: #AC020C !important;
+      padding-left: 2rem !important;
+      width: 100%;
+    }
+    .buttons {
+      white-space: nowrap;
+      transform: translateX(-3rem);
+      padding: 2rem !important;
+    }
+  }
+  @media (max-width: 990px) {
+    .heroHeader {
+      background-color: #F5CFCF !important;
+    }
+  }
+  
+

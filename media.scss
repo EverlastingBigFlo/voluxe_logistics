@@ -1,0 +1,151 @@
+
+
+// mainPage
+
+@media (max-width: 1202px){
+    main{
+        section{
+            .heroPage{
+                .container{
+                    h3{
+                    font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// cardSection
+@media screen and (max-width: 1202px){
+    main{
+        section{
+            .heroSection{
+                .content{
+                   .heroText{ 
+                    font-size: 2rem;
+                   }
+                    .volEcom{
+                    font-size: 2rem;
+                    }
+
+                    .cardSec{
+                        .moreAbout{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 536px){
+    main{
+        section{
+            .heroSection{
+                .content{
+                   .heroText{ 
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                   }
+                    .volEcom{
+                    font-size: 2rem !important;
+                    font-weight: 600;
+                    }
+
+                    .cardSec{
+                        .moreAbout{
+                            font-size: 1.5rem;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// mockupSectionMedia
+
+@media screen and (max-width: 1202px){
+    .mockupSection{
+        .container{
+            .textTag{
+                height: 90%;
+                .trusTed{
+                   font-size: 2.5rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 536px){
+    .mockupSection{
+        .container{
+            .textTag{
+                // height: 100%;
+                .trusTed{
+                   font-size: 1.5rem !important;
+                   font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+
+// mockupSection
+
+@media (max-width: 536px){
+    .defaultBg{
+        .container{
+        h1{
+            font-size: 2rem;
+            font-weight: 600 !important;
+        }
+    }
+    }
+}
+
+
+// faqSection
+
+@media (max-width: 1399px){
+        .faqSection{
+            .container{
+                .accordionWrapper{
+                    .accordion-button{
+                        font-size: 1.2rem !important;
+                    }
+                }
+            }
+
+    }
+    }
+    
+@media (max-width: 437px){
+        .faqSection{
+            .container{
+                .accordionWrapper{
+                    .accordion-button{
+                        font-size: .8rem !important;
+                    }
+                }
+            }
+
+    }
+    }
+
+
+
+    // locationPageMedia
+
+  @media(max-width: 423px){
+    h2{
+        font-size: 1.3rem !important;
+        font-weight: 600 !important;
+    }
+  }

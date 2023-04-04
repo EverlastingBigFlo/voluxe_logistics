@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.heroWrapper{
+  padding: 12rem 0;
+  background-color: #ECECEC;
+}
+
+.card{
+    /* width: 50%; */
+    height: 37.7rem ;
+    /* background: rgba(255, 255, 255, 0.15); */
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    /* margin-left: 30rem; */
+    gap: 30px; 
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background: #FFFFFF26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pager{
+    /* flex-direction: row; */
+    /* gap: 56px; */
+    /* width: 90%; */
+    height: 9rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.pager img{
+    height: 20px;
+}
+
+.red-color{
+  background-color: #ce020f;
+}
+
+
+ .wallet {
+    width: 220px;
+    height: 205px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+  } .wallet li {
+    width: 100%;
+    padding: 13px;
+  } .wallet li a {
+    gap: 20px;
+  } .wallet li:hover {
+    text-decoration: none;
+  } .wallet li:hover:not(.red-color) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+.carrrd:hover{
+  border: 5px solid;
+  border-radius: 25px;
+  transition: all ease .5s;
+}
+
+header .NAVV {
+    z-index: 10;
+    height: 5.8rem;
+  }
+  header .NAVV .heroHeader .nav-link {
+    font-size: 1.2rem;
+    color: black;
+  }
+  header .NAVV .heroHeader .nav-link .bi {
+    font-size: 0.8rem;
+  }
+  header .NAVV .heroHeader .buttons .btn-outline-dark {
+    padding: 1rem 3rem;
+  }
+  header .NAVV .heroHeader .buttons .btn-danger {
+    border: 1px solid black;
+    padding: 1rem 3rem;
+  }
+
+
+
+
+
+  
+ 
+
+
+@media(max-width: 320px){
+    .card .pager div h1{
+        font-size: 12px !important;
+    }
+    .card .pager div p{
+        font-size: 9px;
+    }
+    .card .pager img{
+        /* width: 20px; */
+        height: 15px;
+    }
+}

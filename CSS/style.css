@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+main {
+  font-family: "Rubik", sans-serif;
+}
+main section .heroPage {
+  margin-top: 5.8rem;
+  height: 100%;
+  background: linear-gradient(72.36deg, rgba(225, 25, 25, 0.2) 34.42%, rgba(225, 25, 25, 0.2) 58.55%, rgba(225, 25, 25, 0.123524) 80.27%, rgba(225, 25, 25, 0.0582204) 101.6%, rgba(225, 25, 25, 0) 120.61%), url(https://nowaled.pl/wp-content/uploads/2020/02/3-nowaled-lampy-przemys%C5%82owe-LED-WEW-955x500.png);
+  padding: 3rem 0;
+  background-blend-mode: normal, multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main section .heroPage .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(0.5rem);
+}
+main section .heroPage .container h3 {
+  font-size: 3rem;
+  color: #F5F5F5;
+}
+main section .heroPage .container .boxCont {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main section .heroPage .container .boxCont .whiteCard {
+  background-color: #F5F5F5;
+  width: 10.2rem;
+  height: 9.2rem;
+  margin-top: 0.9rem;
+  border-left: none !important;
+  border-top-right-radius: 0% !important;
+  border-bottom-right-radius: 0% !important;
+}
+main section .heroPage .container .boxCont .whiteCard center {
+  transform: translateY(1.8rem);
+}
+main section .heroPage .container .boxCont .redCard {
+  width: 10.9rem;
+  height: 10.4rem;
+  background-color: #AC020C;
+  z-index: 1;
+  border-right: none !important;
+  border-left: none !important;
+}
+main section .heroPage .container .boxCont .redCard center {
+  transform: translateY(3rem);
+}
+main section .heroPage .container .boxCont .whiteCard2 {
+  background-color: #F5F5F5;
+  width: 10.2rem;
+  height: 9.2rem;
+  margin-top: 0.9rem;
+  border-left: none !important;
+  border-top-left-radius: 0% !important;
+  border-bottom-left-radius: 0% !important;
+}
+main section .heroPage .container .boxCont .whiteCard2 center {
+  transform: translateY(1.8rem);
+}
+main section .heroPage .container a {
+  text-decoration: none;
+}
+main section .heroPage .container a .input-group-text {
+  background-color: #D60D0D;
+}
+main section .heroPage .container input:focus::-moz-placeholder {
+  transform: translateY(-1.1rem);
+  -moz-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+}
+main section .heroPage .container input:focus::placeholder {
+  transform: translateY(-1.1rem);
+  transition: 2s ease-in-out;
+}
+main section .heroSection {
+  height: 100%;
+  background-color: #F5F5F5;
+  padding-bottom: 5rem;
+}
+main section .heroSection .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main section .heroSection .content .heroText {
+  font-size: 3rem;
+  font-weight: 400;
+}
+main section .heroSection .content .contCard .whiteCard {
+  width: 15.4rem;
+  height: 13.5rem;
+  background-color: #FFFFFF;
+  line-height: 12px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px 0px 0px 8px;
+}
+main section .heroSection .content .contCard .whiteCard center svg {
+  margin-top: 2rem;
+}
+main section .heroSection .content .contCard .whiteCard center .shipN {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+main section .heroSection .content .contCard .whiteCard center .text-secondary {
+  font-size: 1rem;
+}
+main section .heroSection .content .contCard .whiteCard2 {
+  width: 15.4rem;
+  height: 13.5rem;
+  background-color: #FFFFFF;
+  line-height: 1.2rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+main section .heroSection .content .contCard .whiteCard2 center svg {
+  margin-top: 2rem;
+}
+main section .heroSection .content .contCard .whiteCard2 center .voluxe {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+}
+main section .heroSection .content .contCard .whiteCard2 center .text-secondary {
+  font-size: 1rem;
+  width: 12rem;
+}
+main section .heroSection .content .contCard .whiteCard3 {
+  width: 15.4rem;
+  height: 13.5rem;
+  background-color: #FFFFFF;
+  line-height: 1.2rem;
+  border-radius: 0px 8px 8px 0px;
+}
+main section .heroSection .content .contCard .whiteCard3 center svg {
+  margin-top: 2rem;
+}
+main section .heroSection .content .contCard .whiteCard3 center .store {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+}
+main section .heroSection .content .contCard .whiteCard3 center .text-secondary {
+  font-size: 1rem;
+}
+main section .heroSection .content .mt-4 {
+  font-size: 3rem !important;
+  font-weight: 400;
+}
+main section .heroSection .content .cardSec .moreAbout {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 4rem;
+}
+main section .heroSection .content .cardSec .box {
+  width: 31rem;
+  height: 100%;
+  background: rgba(24, 9, 12, 0.8);
+}
+main section .heroSection .content .cardSec .box .container {
+  transform: translateY(2rem);
+  height: 100%;
+}
+main section .heroSection .content .cardSec .box .container h1 {
+  color: #FFFFFF;
+}
+main section .heroSection .content .cardSec .box .container .btBarriers {
+  color: #F5CFCF;
+  margin-top: 2rem;
+}
+main section .mockupSection {
+  height: 100%;
+  padding: 6rem 0;
+  background-color: #FFE4E6;
+}
+main section .mockupSection .container {
+  height: 100%;
+}
+main section .mockupSection .container .trusTed {
+  font-size: 3.5rem;
+}
+main section .mockupSection .container .storeS .img-fluid:hover {
+  border: 5px solid transparent;
+}
+main section .mockupSection .container .riderM a .img-fluid:hover {
+  border: 10px solid transparent !important;
+  transition: 0.3s ease-in-out;
+}
+main section .defaultBg h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+main section .defaultBg .card {
+  width: 16.8rem;
+  height: 100%;
+  padding: 2px;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px #6e6a6a;
+}
+main section .defaultBg .card .reviewWord {
+  font-size: 0.7rem;
+}
+main section .defaultBg .card:hover {
+  border: 5px dashed #F5CFCF;
+  transition: 0.5s ease;
+}
+main section .faqSection .container .accordionWrapper {
+  width: 100%;
+}
+main section .faqSection .container .accordionWrapper .accordion-button {
+  margin-right: 7rem !important;
+}
